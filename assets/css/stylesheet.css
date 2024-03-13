@@ -1,0 +1,114 @@
+@charset "utf-8";
+body {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+	overflow-x: hidden; /* Verhindert horizontales Scrollen */
+}
+
+section {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px #000000;
+    padding-bottom: 3rem;
+}
+
+#herosection {
+    width: 100%;
+    height: 500px; /* Höhe der Hero-Section */
+    background-image:url("/assets/img/Durian_-_Sintel-wallpaper-dragon.jpg");
+    background-attachment: fixed; /* Erzeugt den Parallax-Effekt */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Stellt sicher, dass das Bild die gesamte Section bedeckt */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #ffffff; /* Weißer Text */
+}
+
+.hero-content {
+	text-align: left; /* Links ausrichten auf Desktop */
+	padding-left: 5px; /* Abstand vom linken Rand */
+}
+
+.hero-button {
+    background-color: #3498db; /* Angleichen an den Menü-Button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold; /* Optional: Schrift dicker machen */
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #2874a6; /* Dunklere Farbe beim Hover */
+}
+
+/* Media Query für Tablets */
+@media (max-width: 768px) {
+    .hero-content {
+        text-align: center; /* Zentrieren auf Tablets */
+        padding-left: 0; /* Kein linker Padding */
+    }
+}
+
+/* Media Query für Mobilgeräte */
+@media (max-width: 480px) {
+    .hero-content {
+        text-align: center; /* Zentrieren auf Mobilgeräten */
+        padding-left: 0; /* Kein linker Padding */
+    }
+}
+
+/* Menue Sidebar */
+#sidebar {
+	position: fixed;
+	top: 20px; /* Abstand von oben */
+	right: 20px; /* Abstand von rechts */
+	background-color: #f0f0f0;
+	padding: 10px;
+	border-radius: 5px;
+	width: 200px; /* Breite des Menues */
+	z-index: 1000;
+}
+
+#menuToggle {
+	display: block;
+	background-color: #3498db; /* Hintergrundfarbe des Buttons */
+	color: white; /* Schriftfarbe des Buttons */
+	padding: 10px;
+	margin-bottom: 10px; /* Abstand zwischen Button und Menüpunkten */
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#menuItems.hidden {
+	display: none;
+}
+
+#menuItems {
+	display: block;
+	margin-top: 10px;
+}
+
+#menuItems a {
+	display: block; /* Menüpunkte untereinander anzeigen */
+	color: #333; /* Schriftfarbe der Menüpunkte */
+	padding: 10px; /* Abstand innen */
+	text-decoration: none; /* Keine Unterstreichung der Links */
+	border-bottom: 1px solid #ddd; /* Trennlinie zwischen Menüpunkten */
+	transition: all 0.6s ease-in-out;
+}
+
+#menuItems a:hover {
+	background-color: #ddd; /* Hintergrundfarbe beim Hover */
+}

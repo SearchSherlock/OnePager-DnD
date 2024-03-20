@@ -1,9 +1,10 @@
-// JavaScript Document
-document.getElementById('menuToggle').addEventListener('click', function() {
-  var menu = document.getElementById('menuItems');
-  if (menu.classList.contains('hidden')) {
-    menu.classList.remove('hidden');
-  } else {
-    menu.classList.add('hidden');
-  }
+document.addEventListener('DOMContentLoaded', function() {
+  var menuToggle = document.getElementById('menuToggle');
+  var navMenu = document.getElementById('navMenu');
+
+  menuToggle.addEventListener('click', () => toggleNavMenu(navMenu));
 });
+
+function toggleNavMenu(navMenuElement) {
+  navMenuElement.classList.toggle('nav-menu--open');
+}

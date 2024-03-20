@@ -1,12 +1,16 @@
-@charset "utf-8";
+* {
+	box-sizing: border-box;
+}
+
 body {
-    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    font-size: 16px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	font-size: 16px;
 	font-weight: 400;
-	overflow-x: hidden; /* Verhindert horizontales Scrollen */
+	overflow-x: hidden;
+	/* Verhindert horizontales Scrollen */
 }
 
 h1 {
@@ -22,20 +26,26 @@ h3 {
 }
 
 section {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 5px 0px #000000; /* Section Schatten Unterhalb*/
-    padding-bottom: 3rem;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 0px 5px 0px #000000;
+	/* Section Schatten Unterhalb*/
+	padding-bottom: 3rem;
 }
+
+.hidden {
+    display: none;
+}
+
 .story {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
+	align-items: center;
+	flex-wrap: nowrap;
 }
 
 .di-row {
@@ -43,13 +53,14 @@ section {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-	gap: 11rem; /*Abstand zwischen den Elementen*/
-    padding-top: 3em;
-    padding-right: 1.5em;
-    padding-bottom: 1.5em;
-    padding-left: 1.5em;
+	align-items: center;
+	flex-wrap: nowrap;
+	gap: 11rem;
+	/*Abstand zwischen den Elementen*/
+	padding-top: 3em;
+	padding-right: 1.5em;
+	padding-bottom: 1.5em;
+	padding-left: 1.5em;
 }
 
 img {
@@ -58,161 +69,120 @@ img {
 }
 
 #herosection {
-    width: 100%;
-    height: 500px; /* Höhe der Hero-Section */
-    background-image:url(../img/Dragon.jpg);
-    background-attachment: fixed; /* Erzeugt den Parallax-Effekt */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; /* Stellt sicher, dass das Bild die gesamte Section bedeckt */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    color: #ffffff; /* Weißer Text */
+	width: 100%;
+	height: 500px;
+	/* Höhe der Hero-Section */
+	background-image: url(../img/Dragon.jpg);
+	background-attachment: fixed;
+	/* Erzeugt den Parallax-Effekt */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* Stellt sicher, dass das Bild die gesamte Section bedeckt */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	color: #ffffff;
+	/* Weißer Text */
 }
 
 .hero-content {
-	text-align: left; /* Links ausrichten auf Desktop */
-	padding-left: 5px; /* Abstand vom linken Rand */
+	text-align: center;
+	padding-left: 0;
 }
 
 .hero-button {
-    background-color: #3498db; /* Angleichen an den Menü-Button */
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold; /* Optional: Schrift dicker machen */
-    transition: background-color 0.6s;
+	background-color: #3498db;
+	/* Angleichen an den Menü-Button */
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+	/* Optional: Schrift dicker machen */
+	transition: background-color 0.6s;
 }
 
 .hero-button:hover {
-    background-color: #2874a6; /* Dunklere Farbe beim Hover */
-}
-/* Media Query für Mobilgeräte */
-@media only screen and (max-width: 640px){
-	.hero-content {
-        text-align: center; /* Zentrieren auf Mobilgeräten */
-        padding-left: 0; /* Kein linker Padding */
-}
-	
-	
-	img {
-	max-height: 300px;
-	max-width: 300px;
-}
-	.di-row {
-	max-width: 80%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-    align-items: center;
-	text-align: center;
-    flex-wrap: nowrap;
-    padding-top: 2em;
-	gap: 1rem;
-}
+	background-color: #2874a6;
+	/* Dunklere Farbe beim Hover */
 }
 
-@media only screen and (max-width: 768px){
-		.hero-content {
-        text-align: center; /* Zentrieren auf Mobilgeräten */
-        padding-left: 0; /* Kein linker Padding */
-}
+/* Media Query für Mobilgeräte */
+@media only screen and (max-width: 640px) {
 	img {
-	max-height: 325px;
-	max-width: 325px;
-}
+		max-height: 300px;
+		max-width: 300px;
+	}
+
 	.di-row {
-	width: 80%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-    align-items: center;
-	text-align: center;
-    flex-wrap: nowrap;
-    padding-top: 3em;
-    padding-right: 1.5em;
-    padding-bottom: 1.5em;
-    padding-left: 1.5em;
-	gap: 1rem;
+		max-width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		flex-wrap: nowrap;
+		padding-top: 2em;
+		gap: 1rem;
+	}
 }
+
+@media only screen and (max-width: 768px) {
+
+	img {
+		max-height: 325px;
+		max-width: 325px;
+	}
+
+	.di-row {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		flex-wrap: nowrap;
+		padding-top: 3em;
+		padding-right: 1.5em;
+		padding-bottom: 1.5em;
+		padding-left: 1.5em;
+		gap: 1rem;
+	}
 }
 
 /* Media Query für Tablets */
-@media only screen and (max-width: 1024px){
-		.hero-content {
-        text-align: center; /* Zentrieren auf Mobilgeräten */
-        padding-left: 0; /* Kein linker Padding */
-}
+@media only screen and (max-width: 1024px) {
+
 	img {
-	max-height: 325px;
-	max-width: 325px;
-}
+		max-height: 325px;
+		max-width: 325px;
+	}
+
 	.di-row {
-	width: 80%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-    align-items: center;
-	text-align: center;
-    flex-wrap: nowrap;
-    padding-top: 3em;
-    padding-right: 1.5em;
-    padding-bottom: 1.5em;
-    padding-left: 1.5em;
-	gap: 1rem;
-}
-}
-@media only screen and (min-width: 1280px){
-	
-}
-@media only screen and (max-width: 1440px){
-	
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		flex-wrap: nowrap;
+		padding-top: 3em;
+		padding-right: 1.5em;
+		padding-bottom: 1.5em;
+		padding-left: 1.5em;
+		gap: 1rem;
+	}
 }
 
-/* Menue Sidebar */
-#sidebar {
-	position: fixed;
-	top: 20px; /* Abstand von oben */
-	right: 20px; /* Abstand von rechts */
-	background-color: #f0f0f0;
-	padding: 10px;
-	border-radius: 5px;
-	width: 200px; /* Breite des Menues */
-	z-index: 1000;
+@media only screen and (min-width: 1024px) {
+	.hero-content {
+		text-align: left;
+		padding-left: 5px;
+	}
 }
 
-#menuToggle {
-	display: block;
-	background-color: #3498db; /* Hintergrundfarbe des Buttons */
-	color: white; /* Schriftfarbe des Buttons */
-	padding: 10px;
-	margin-bottom: 10px; /* Abstand zwischen Button und Menüpunkten */
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-}
+@media only screen and (min-width: 1280px) {}
 
-#menuItems.hidden {
-	display: none;
-}
-
-#menuItems {
-	display: block;
-	margin-top: 10px;
-}
-
-#menuItems a {
-	display: block; /* Menüpunkte untereinander anzeigen */
-	color: #333; /* Schriftfarbe der Menüpunkte */
-	padding: 10px; /* Abstand innen */
-	text-decoration: none; /* Keine Unterstreichung der Links */
-	border-bottom: 1px solid #ddd; /* Trennlinie zwischen Menüpunkten */
-	transition: all 0.6s ease-in-out;
-}
-
-#menuItems a:hover {
-	background-color: #ddd; /* Hintergrundfarbe beim Hover */
-}
+@media only screen and (max-width: 1440px) {}

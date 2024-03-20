@@ -2,26 +2,29 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>OnePager TTG</title>
 <link href="assets/css/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="assets/css/menue.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<header>
-		<nav>
-		<div id="sidebar">
-  			<button id="menuToggle">Menü</button>
-  			<div id="menuItems" class="hidden">
-    		<a href="#section1">Einführung</a>
-    		<a href="#section2">Spielsystem</a>
-   			<a href="#section3">Magie</a>
-  			<a href="#section4">Story Erstellung</a>
-    		<a href="#section5">Charakter Erstellung</a>
-    		<a href="#tips">Tipps zum Selbst Planen</a>
-  			</div>
-		</div>
+		<nav class="main-nav">
+			<div class="nav-container">
+				<img src="assets/img/logo.png" width="75px" height="75px" alt="Logo" class="nav-logo">
+				<button class="menu-toggle" id="menuToggle">☰</button>
+				<div class="nav-menu" id="navMenu">
+					<a href="#section1" class="nav-item">Einführung</a>
+					<a href="#section2" class="nav-item">Spielsystem</a>
+					<a href="#section3" class="nav-item">Magie</a>
+					<a href="#section4" class="nav-item">Story Erstellung</a>
+					<a href="#section5" class="nav-item">Charakter Erstellung</a>
+					<a href="#tips" class="nav-item">Tipps zum Selbst Planen</a>
+				</div>
+			</div>
 		</nav>
-	</header>
+	</header>	
 <section id="herosection">
     <div class="hero-content">
         <h1>Entdecke die Welt von Mythara<br>dem Tabletop-Rollenspiel</h1>
@@ -44,6 +47,13 @@
 			<li><a href="assets/pdf/Herausforderung.pdf" target="_blank">Herausforderungen = Kampfsystem</a></li>
 			<li><a href="assets/pdf/Rang und Lvl System.pdf" target="_blank">Rang und LvL-System</a></li>
 			</ul>
+			<h2>Ideen für Sprüche</h2>
+			<p>"Nur wer wagt zu fliegen, findet heraus, wie hoch er wirklich steigen kann – Das Abenteuer von Mythara erwartet dich."
+				"Zwischen Himmel und Meer – in Mythara entscheidet der Mut über dein Schicksal."
+				"Wie Ikarus streben wir nach den Sternen, bereit, die Grenzen des Möglichen zu erforschen."
+				"Im Streben nach Größe erkennen wir unsere wahren Grenzen und Möglichkeiten. Willkommen in der Welt von Mythara."
+				"In den Schatten des Labyrinths, weit über das Meer des Bekannten hinaus, liegt unsere Bestimmung."
+				</p>
 				<p>Unser Tischrollenspiel entführt dich in eine Welt, in der deine Entscheidungen und Würfelwürfe das Schicksal deiner Charaktere bestimmen. Mit einem einzigartigen Magiesystem, das es den Spielern ermöglicht, die Elemente zu beherrschen, und einem dynamischen Kampfsystem, das Strategie und Schnelligkeit belohnt, bietet Mythara ein immersives Spielerlebnis. Ob du dich durch düstere Dungeons kämpfst oder Intrigen in den Gassen Minorias entspinnst, jede Session ist ein neues Kapitel in deiner eigenen epischen Geschichte.
 		  		</p>
 				</div>
@@ -109,6 +119,8 @@
 		<input type="submit" value="submit">
 	</form>
 </section>
+<footer>
 <script src="assets/js/main.js"></script>
+</footer>
 </body>
 </html>

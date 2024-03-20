@@ -1,0 +1,74 @@
+/* Grundlegendes Reset für die Navigationsleiste */
+.main-nav {
+    width: 100%;
+    background-color: #f0f0f0;
+    /* Hintergrundfarbe der Navigationsleiste */
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* Außenabstand */
+    z-index: 999;
+    /* Hoch genug, um über anderen Elementen zu sein */
+}
+
+.menu-toggle {
+    font-size: 2rem;
+    /* Größe des Menü-Icons */
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: none;
+}
+
+.nav-item {
+    display: block;
+    font-size: 1.125rem;
+    /* Damit die Links korrekt angezeigt werden */
+    color: #333;
+    /* Schriftfarbe */
+    padding: 0.85rem;
+    /* Innerer Abstand */
+    text-decoration: none;
+    /* Keine Unterstreichung */
+}
+
+/* Menü-Links beim Hover */
+.nav-item:hover {
+    background-color: #ddd;
+    transition: all 0.6s ease-in-out;
+}
+
+@media screen and (max-width: 1204px) {
+    .nav-menu--open {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: white;
+        padding: 1rem;
+        margin-top: 1rem;
+        border-radius: 5px;
+        box-shadow: 3px 5px 7px 0px #bfbfbf;
+    }
+}
+
+@media screen and (min-width: 1204px) {
+    .menu-toggle {
+        display: none;
+        /* Versteckt den Toggle-Button auf größeren Bildschirmen */
+    }
+
+    .nav-menu {
+        display: flex;
+        /* Zeigt das Menü als Flex-Container an */
+        justify-content: flex-end;
+        /* Menü-Items rechtsbündig */
+    }
+}

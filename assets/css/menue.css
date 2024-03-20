@@ -30,10 +30,11 @@
 
 .nav-item {
     display: block;
+    font-size: 1.125rem;
     /* Damit die Links korrekt angezeigt werden */
     color: #333;
     /* Schriftfarbe */
-    padding: 0.5rem 0;
+    padding: 0.85rem;
     /* Innerer Abstand */
     text-decoration: none;
     /* Keine Unterstreichung */
@@ -42,6 +43,7 @@
 /* Menü-Links beim Hover */
 .nav-item:hover {
     background-color: #ddd;
+    transition: all 0.6s ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
@@ -68,10 +70,5 @@
         /* Zeigt das Menü als Flex-Container an */
         justify-content: flex-end;
         /* Menü-Items rechtsbündig */
-    }
-
-    .nav-item {
-        padding: 0 1rem;
-        /* Erhöht den Abstand zwischen den Menü-Items */
     }
 }

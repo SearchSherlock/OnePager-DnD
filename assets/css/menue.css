@@ -1,7 +1,8 @@
 /* Grundlegendes Reset für die Navigationsleiste */
 .main-nav {
     width: 100%;
-    background-color: #f0f0f0; /* Hintergrundfarbe der Navigationsleiste */
+    background-color: #f0f0f0;
+    /* Hintergrundfarbe der Navigationsleiste */
 }
 
 .nav-container {
@@ -9,12 +10,15 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem; /* Außenabstand */
-    z-index: 999; /* Hoch genug, um über anderen Elementen zu sein */
+    padding: 1rem;
+    /* Außenabstand */
+    z-index: 999;
+    /* Hoch genug, um über anderen Elementen zu sein */
 }
 
 .menu-toggle {
-    font-size: 2rem; /* Größe des Menü-Icons */
+    font-size: 2rem;
+    /* Größe des Menü-Icons */
     border: none;
     background: none;
     cursor: pointer;
@@ -25,10 +29,14 @@
 }
 
 .nav-item {
-    display: block; /* Damit die Links korrekt angezeigt werden */
-    color: #333; /* Schriftfarbe */
-    padding: 0.5rem 0; /* Innerer Abstand */
-    text-decoration: none; /* Keine Unterstreichung */
+    display: block;
+    /* Damit die Links korrekt angezeigt werden */
+    color: #333;
+    /* Schriftfarbe */
+    padding: 0.5rem 0;
+    /* Innerer Abstand */
+    text-decoration: none;
+    /* Keine Unterstreichung */
 }
 
 /* Menü-Links beim Hover */
@@ -51,15 +59,19 @@
 
 @media screen and (min-width: 768px) {
     .menu-toggle {
-        display: none; /* Versteckt den Toggle-Button auf größeren Bildschirmen */
+        display: none;
+        /* Versteckt den Toggle-Button auf größeren Bildschirmen */
     }
 
     .nav-menu {
-        display: flex; /* Zeigt das Menü als Flex-Container an */
-        justify-content: flex-end; /* Menü-Items rechtsbündig */
+        display: flex;
+        /* Zeigt das Menü als Flex-Container an */
+        justify-content: flex-end;
+        /* Menü-Items rechtsbündig */
     }
 
     .nav-item {
-        padding: 0 1rem; /* Erhöht den Abstand zwischen den Menü-Items */
+        padding: 0 1rem;
+        /* Erhöht den Abstand zwischen den Menü-Items */
     }
 }

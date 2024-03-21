@@ -2,7 +2,9 @@
 .main-nav {
     width: 100%;
     background-color: #f0f0f0;
-    /* Hintergrundfarbe der Navigationsleiste */
+	position: fixed;
+	box-shadow: 3px 5px 7px 0px #37373794;
+	z-index: 999;
 }
 
 .nav-container {
@@ -12,7 +14,7 @@
     align-items: center;
     padding: 1rem;
     /* Außenabstand */
-    z-index: 999;
+    z-index: 998;
     /* Hoch genug, um über anderen Elementen zu sein */
 }
 

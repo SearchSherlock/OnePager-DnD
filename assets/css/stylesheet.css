@@ -221,7 +221,7 @@ img {
 		padding-left: 1.5em;
 		gap: 1rem;
 	}
-}
+
 	.vertical-lineV {
 		top: 0;
 		left: 0;
@@ -263,13 +263,14 @@ img {
 		-webkit-box-shadow: 0 0 10px #bbd3fd;
 		transition: all 0.6s ease-in-out;
 	}
+}
 
-	@media only screen and (min-width: 373px) and (max-width: 767px) {
-		#form-field {
-			display: none;
-		}
-	}	
+@media only screen and (min-width: 373px) and (max-width: 767px) {
+	#form-field {
+		display: none;
+	}
+}
 
-	@media only screen and (min-width: 1280px) {}
+@media only screen and (min-width: 1280px) {}
 
-	@media only screen and (max-width: 1440px) {}
+@media only screen and (max-width: 1440px) {}

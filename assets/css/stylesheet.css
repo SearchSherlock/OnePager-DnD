@@ -155,6 +155,10 @@ img {
 	flex-direction: row;
 	gap: 1rem;
 }
+#textfield {
+	width: 80%;
+	height: 500px;
+}
 
 /* Media Query für Mobilgeräte */
 @media only screen and (max-width: 640px) {

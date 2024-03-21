@@ -161,7 +161,7 @@ img {
 }
 
 #form-field {
-	height: inherit;
+	height: 100%;
 }
 
 /* Media Query für Mobilgeräte */

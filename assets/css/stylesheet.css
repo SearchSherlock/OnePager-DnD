@@ -123,6 +123,8 @@ img {
 }
 #form-field {
 	max-width: 80%;
+	width: 80%;
+	overflow-x: hidden;
 }
 .pdf-links {
     list-style-position: outside;

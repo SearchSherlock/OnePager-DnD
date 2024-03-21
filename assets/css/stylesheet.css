@@ -245,10 +245,21 @@ img {
     -webkit-box-shadow: 0 0 10px #bbd3fd;
     transition: all 0.6s ease-in-out;
 }
-#textfield{
+#textfield {
 	max-width: 340px;
-	width: 340px;
+	width: 100%;
 	overflow-x: hidden;
+}
+}
+
+/* Zusätzliche Media-Query für Bildschirme bis 350px */
+@media only screen and (max-width: 350px) {
+#textfield, #form-field, input[type="text"], #nachricht, input[type="submit"] {
+	width: 100%; 
+	box-sizing: border-box; 
+}
+#nachricht {
+	height: auto; 
 }
 }
 

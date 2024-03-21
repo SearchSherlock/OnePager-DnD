@@ -119,7 +119,6 @@ section {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-radius: 5px;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -222,7 +221,7 @@ img {
 		padding-left: 1.5em;
 		gap: 1rem;
 	}
-
+}
 	.vertical-lineV {
 		top: 0;
 		left: 0;
@@ -265,13 +264,11 @@ img {
 		transition: all 0.6s ease-in-out;
 	}
 
-
-	/* Zusätzliche Media-Query für Bildschirme bis 350px */
-	@media only screen and (min-width: 373px and max-width:767px) {
+	@media only screen and (min-width: 373px) and (max-width: 767px) {
 		#form-field {
 			display: none;
 		}
-	}
+	}	
 
 	@media only screen and (min-width: 1280px) {}
 

@@ -248,6 +248,7 @@ img {
 #textfield{
 	max-width: 340px;
 	width: 340px;
+	overflow-x: hidden;
 }
 }
 

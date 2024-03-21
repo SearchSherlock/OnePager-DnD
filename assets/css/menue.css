@@ -17,6 +17,9 @@
     z-index: 998;
     /* Hoch genug, um über anderen Elementen zu sein */
 }
+.nav-logo {
+    padding-left: 1.5rem;
+}
 
 .menu-toggle {
     font-size: 2rem;

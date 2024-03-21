@@ -160,6 +160,10 @@ img {
 	height: 500px;
 }
 
+#form-field {
+	height: inherit;
+}
+
 /* Media Query für Mobilgeräte */
 @media only screen and (max-width: 640px) {
 	img {

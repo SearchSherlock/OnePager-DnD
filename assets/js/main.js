@@ -14,3 +14,17 @@ new simpleParallax(image);
 
 var image = document.getElementById('dice-bg-image');
 new simpleParallax(image);
+
+var einfSection = document.getElementById("einf-section");
+var einfSectionLaser = document.getElementById("einf-laser");
+var einfSectionKeyword = document.getElementById("einf-keyword");
+
+einfSection.addEventListener("mouseenter", () => {
+  einfSectionLaser.classList.add("illuminated")  
+  einfSectionKeyword.classList.add("illuminated")
+})
+
+einfSection.addEventListener("mouseleave", () => {
+  einfSectionLaser.classList.remove("illuminated")  
+  einfSectionKeyword.classList.remove("illuminated")
+})

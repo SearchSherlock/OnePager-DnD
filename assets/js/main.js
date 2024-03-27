@@ -11,3 +11,6 @@ function toggleNavMenu(navMenuElement) {
 
 var image = document.getElementById('hero-bg-image');
 new simpleParallax(image);
+
+var image = document.getElementById('dice-bg-image');
+new simpleParallax(image);

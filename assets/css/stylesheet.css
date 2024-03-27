@@ -129,6 +129,14 @@ img {
 	max-width: 500px;
 }
 
+#dice-bg-image {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	max-height: unset;
+	max-width: unset;
+}
+
 #form-field {
 	max-width: 100%;
 }

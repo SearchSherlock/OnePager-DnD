@@ -2,8 +2,6 @@
 	width: 100%;
 	height: 700px;
 	background-image: url(../img/Dragon.jpg);
-	background-attachment: fixed;
-	/* Erzeugt den Parallax-Effekt */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

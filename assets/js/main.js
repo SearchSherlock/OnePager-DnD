@@ -9,18 +9,18 @@ function toggleNavMenu(navMenuElement) {
   navMenuElement.classList.toggle('nav-menu--open');
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  var parallaxElements = document.querySelectorAll('.parallax');
-  var speed = 0.5;
+// document.addEventListener('DOMContentLoaded', function () {
+//   var parallaxElements = document.querySelectorAll('.parallax');
+//   var speed = 0.5;
 
-  window.addEventListener('scroll', function () {
-    var offset = window.pageYOffset;
+//   window.addEventListener('scroll', function () {
+//     var offset = window.pageYOffset;
 
-    parallaxElements.forEach(function (elem) {
-      elem.style.backgroundPositionY = offset * speed + "px";
-    });
-  });
-});
+//     parallaxElements.forEach(function (elem) {
+//       elem.style.backgroundPositionY = offset * speed + "px";
+//     });
+//   });
+// });
 
 document.addEventListener('DOMContentLoaded', function () {
   var parallaxElements = document.querySelectorAll('.parllay');

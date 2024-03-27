@@ -114,8 +114,6 @@ section {
 	height: 500px;
 	background-color: none;
 	background-image: url("../img/Startseite-Wuerfel-Parallax.webp");
-	background-attachment: fixed;
-	/* Erzeugt den Parallax-Effekt */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

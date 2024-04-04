@@ -1,0 +1,33 @@
+@charset "utf-8";
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 600px; /* Anpassen nach Bedarf */
+}
+
+.slides {
+  position: relative;
+  align-items: center;
+  width: 300%; /* Abhängig von der Anzahl deiner Slides */
+  left: 0;
+  transition: left 0.5s ease-in-out;
+}
+
+.slide {
+  width: 33.3333%; /* Abhängig von der Anzahl deiner Slides */
+  float: left;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ccc;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev { left: 20px; }
+.next { right: 20px; }

@@ -313,6 +313,33 @@ img {
 }
 
 @media only screen and (min-width: 373px) and (max-width: 767px) {
+body {
+
+	margin: 0 auto;
+	font-size: 13px;
+}	
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+h4 {
+		text-align: center;
+	}
+
+section {
+    padding-bottom: 1.5rem;
+}
 	#textfield {
 		width: 360px;
 		height: 300px;

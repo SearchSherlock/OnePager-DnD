@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /verzeichnis/
+Sitemap: https://one-pager-dnd.vercel.app/sitemap.xml

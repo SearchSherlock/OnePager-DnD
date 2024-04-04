@@ -35,4 +35,11 @@
 	.kunsti-box {
 		max-width: 80%;
 	}
+	.k-img {
+		border: thin solid #3977e6;
+		border-radius: 15px;
+		width: 8rem;
+		height: 8rem;
+		margin-top: 12px;
+	}
 }

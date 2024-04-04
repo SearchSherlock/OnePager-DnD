@@ -28,3 +28,25 @@ einfSection.addEventListener("mouseleave", () => {
   einfSectionLaser.classList.remove("illuminated")  
   einfSectionKeyword.classList.remove("illuminated")
 })
+
+//let index = 0; // Der aktuelle Slide
+//const slides = document.querySelectorAll('.slide');
+//const totalSlides = slides.length;
+
+//document.querySelector('.prev').addEventListener('click', () => {
+//    changeSlide(-1);
+//});
+
+//document.querySelector('.next').addEventListener('click', () => {
+//    changeSlide(1);
+//});
+
+//function changeSlide(step) {
+//    index = (index + step + totalSlides) % totalSlides;
+//    document.querySelector('.slides').style.left = (-index * 100) + '%';
+//}
+
+// Automatisches Weiterschalten
+//setInterval(() => {
+//    changeSlide(1);
+//}, 5000); // Wechselt die Slides alle 5 Sekunden

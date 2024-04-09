@@ -1,22 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://one-pager-dnd.vercel.app/</loc>
-        <lastmod>2023-01-01</lastmod>
+        <lastmod>2024-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
+          <image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/favicon.png</image:loc>
+     <image:caption>Favicon</image:caption>
+     <image:title>Mythara Favicon</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/logo/logo-v1-no-bg.svg</image:loc>
+     <image:caption>Logo</image:caption>
+     <image:title>Mythara Logo</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/Dragon.webp</image:loc>
+     <image:caption>Mystischer Drache - Bosskampf in Rollenspielen</image:caption>
+     <image:title>Mystischer Drache</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/Schwert-im-Stein.webp</image:loc>
+     <image:caption>Tabletop Story: Das Schwert im Stein</image:caption>
+     <image:title>Schwert im Stein</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/Detailansicht-Tokens-700x700.webp</image:loc>
+     <image:caption>Tabletop Spielkarten und Tokens</image:caption>
+     <image:title>Spielkarten und Tokens</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/Startseite-Wuerfel-Parallax.webp</image:loc>
+     <image:caption>D&D d10 Würfel Sammlung</image:caption>
+     <image:title>D10 Würfel</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/magic.webp</image:loc>
+     <image:caption>Tabletop Rollenspiel Charakter - Elena die Magierin</image:caption>
+     <image:title>Magierin</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/kundenstimmen/Simon.webp</image:loc>
+     <image:caption>Simon, begeisterter Spieler</image:caption>
+     <image:title>kundenstimmen Simon</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/Ice Dragon Shadow.webp</image:loc>
+     <image:caption>Ice Dragon bereitet sich auf Abenteuer vor</image:caption>
+     <image:title>Ice Dragon</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/kundenstimmen/Mia.webp</image:loc>
+     <image:caption>Mia, leidenschaftliche Game Masterin</image:caption>
+     <image:title>kundenstimmen Mia</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/kundenstimmen/Mia.webp</image:loc>
+     <image:caption>Jonas, erfahrener Abenteurer</image:caption>
+     <image:title>kundenstimmen Jonas</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/kundenstimmen/Luisa.webp</image:loc>
+     <image:caption>Luisa, angehende Magierin</image:caption>
+     <image:title>kundenstimmen Luisa</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/kundenstimmen/Elena.webp</image:loc>
+     <image:caption>Elena, listige Gestaltwandlerin</image:caption>
+     <image:title>kundenstimmen Elena</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/kundenstimmen/Timo.webp</image:loc>
+     <image:caption>Timo, begeisterte Tabletop-Spieler</image:caption>
+     <image:title>kundenstimmen Timo</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/icon/Facebook.svg</image:loc>
+     <image:caption>Facebook Icon</image:caption>
+     <image:title>Facebook Icon</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/icon/Insta Icon.svg</image:loc>
+     <image:caption>Instagram Icon</image:caption>
+     <image:title>Instagram Icon</image:title>
+  </image:image>
+<image:image>
+     <image:loc>https://one-pager-dnd.vercel.app/assets/img/icon/youtube.svg</image:loc>
+     <image:caption>Youtube Icon</image:caption>
+     <image:title>Youtube Icon</image:title>
+  </image:image>
     </url>
       <url>
         <loc>https://one-pager-dnd.vercel.app/sites/danke.html</loc>
-        <lastmod>2023-01-01</lastmod>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
+        <priority>0.4</priority>
     </url>
       <url>
         <loc>https://one-pager-dnd.vercel.app/sites/rechtshinweis.html</loc>
-        <lastmod>2023-01-01</lastmod>
+        <lastmod>2024-04-04</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
+        <priority>0.8</priority>
     </url>
     <!-- Weitere URLs hinzufügen -->
 </urlset>
